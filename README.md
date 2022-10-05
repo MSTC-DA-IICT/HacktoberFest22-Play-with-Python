@@ -28,7 +28,7 @@ This project is a sincere attempt by MSTC, DA-IICT to encourage Open Source cont
 >Learn,Try and play with python
 
 <br><br>
-### :Tools: Skills
+Tools: Skills
 * python and its libraries
 
 
