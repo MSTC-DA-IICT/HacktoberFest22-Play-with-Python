@@ -10,7 +10,8 @@ We eagerly anticipate your input. 👍
 
 ### Beginning the procedure of contributing? 🤔
 
-To learn the fundamentals of Git/GitHub and contributing to a repository, go to the articles below. If you run into trouble when making a contribution, the project maintainers will be happy to assist you. 🤗
+- To learn the fundamentals of Git/GitHub and contributing to a repository, go to the articles below. 
+- If you run into trouble when making a contribution, the project maintainers will be happy to assist you. 🤗
 
 - [git and github fundamentals](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [The GitHub Lab introduction](https://lab.github.com/githubtraining/introduction-to-github)
