@@ -1,9 +1,14 @@
+
+
 from tkinter import *
 from tkinter.filedialog import askopenfilename
 from tkinter import filedialog
 #import functions from main
 
 root = Tk()
+root.title("Grammer Tools")
+
+#resize the tkinter window and design it using your creativity
 
 def open_file():
     #take file from the user as input
