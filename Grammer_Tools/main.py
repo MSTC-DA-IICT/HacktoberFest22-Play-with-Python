@@ -4,7 +4,6 @@ from collections import Counter
 npl=spacy.load("en_core_web_sm")
 
 def get_text(text):
-    print(text)
     global doc
     doc = npl(text)
 
@@ -12,63 +11,83 @@ def get_text(text):
 
 #Noun
 def find_noun():
+    ans = []
     for x in doc:
         if x.pos_=="NOUN" or x.pos_=="PROPN":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Pronoun
 def find_pronoun():
+    ans = []
     for x in doc:
         if x.pos_ == "PRON":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Adverb
 def find_adverbs():
+    ans = []
     for x in doc:
         if x.pos_ == "ADV":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Adjective
 def find_adjectives():
+    ans = []
     for x in doc:
         if x.pos_ == "ADJ":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Verb
 def find_verb():
+    ans = []
     for x in doc:
         if x.pos_ == "VERB" or x.pos_ == "AUX":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Preposition
 def find_preposition():
+    ans = []
     for x in doc:
         if x.pos_ == "ADP":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Conjuction     
 def find_conjuction():
+    ans = []
     for x in doc:
         if x.pos_ == "CONJ" or x.pos_ == "SCON":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Interjection
 def find_interjection():
+    ans = []
     for x in doc:
         if x.pos_ == "INTJ":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Punctuation
 def find_punctuation():
+    ans = []
     for x in doc:
         if x.pos_ == "PUNCT":
-            print(x)
+            ans.append(x)
+    return ans
 
 #Articles/Determiners
 def find_determiners():
+    ans = []
     for x in doc:
         if x.pos_ == "DET":
-            print(x)
+            ans.append(x)
+    return ans
 
 
 #create more functionality using space like find pronoun, adverbs etc.
